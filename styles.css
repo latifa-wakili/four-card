@@ -156,7 +156,7 @@ margin-left: 210px;
 }
 
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* سه ستون */
@@ -204,19 +204,6 @@ margin-left: 210px;
     border-top: 3px solid rgb(47, 133, 209);
     margin-top: 150px;
   }
-  
-  /* تنظیمات پیش‌فرض کارت‌ها */
-  .supervisor,
-  .Team,
-  .Karma,
-  .Calculator {
-    padding: 20px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 4px 10px rgb(161, 177, 201);
-    text-align: left;
-  }
-  
  
   }
   
